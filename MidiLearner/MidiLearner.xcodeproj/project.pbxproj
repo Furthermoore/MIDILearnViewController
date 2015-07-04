@@ -14,6 +14,7 @@
 		37A058161B47CAF20077B9AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A058151B47CAF20077B9AF /* Images.xcassets */; };
 		37A058191B47CAF20077B9AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37A058171B47CAF20077B9AF /* LaunchScreen.xib */; };
 		37A058251B47CAF20077B9AF /* MidiLearnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A058241B47CAF20077B9AF /* MidiLearnerTests.m */; };
+		37A058301B47CBEE0077B9AF /* MIDILearnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A0582F1B47CBEE0077B9AF /* MIDILearnViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		37A0581E1B47CAF20077B9AF /* MidiLearnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MidiLearnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A058231B47CAF20077B9AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37A058241B47CAF20077B9AF /* MidiLearnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MidiLearnerTests.m; sourceTree = "<group>"; };
+		37A0582E1B47CBEE0077B9AF /* MIDILearnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDILearnViewController.h; sourceTree = "<group>"; };
+		37A0582F1B47CBEE0077B9AF /* MIDILearnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIDILearnViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				37A0580D1B47CAF20077B9AF /* AppDelegate.m */,
 				37A0580F1B47CAF20077B9AF /* ViewController.h */,
 				37A058101B47CAF20077B9AF /* ViewController.m */,
+				37A0582E1B47CBEE0077B9AF /* MIDILearnViewController.h */,
+				37A0582F1B47CBEE0077B9AF /* MIDILearnViewController.m */,
 				37A058121B47CAF20077B9AF /* Main.storyboard */,
 				37A058151B47CAF20077B9AF /* Images.xcassets */,
 				37A058171B47CAF20077B9AF /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37A058301B47CBEE0077B9AF /* MIDILearnViewController.m in Sources */,
 				37A058111B47CAF20077B9AF /* ViewController.m in Sources */,
 				37A0580E1B47CAF20077B9AF /* AppDelegate.m in Sources */,
 				37A0580B1B47CAF20077B9AF /* main.m in Sources */,
